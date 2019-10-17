@@ -4,6 +4,8 @@ def load_library
   # code goes here
   counter = 0
   load 'emoticons.yml'
+  counter = 1 
+  load 'emoticons.yml'
   
 end
 
