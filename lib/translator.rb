@@ -2,7 +2,7 @@
 
 def load_library
   # code goes here
-  load emticons.yml
+  load 'emticons.yml'
   
 end
 
