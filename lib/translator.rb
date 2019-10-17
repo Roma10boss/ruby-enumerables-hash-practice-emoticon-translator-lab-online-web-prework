@@ -2,10 +2,8 @@
 
 def load_library
   # code goes here
-  counter = 0
-  load 'emoticons.yml'
-  counter = 1 
-  load 'emoticons.yml'
+require "yaml"
+emoticons = YAML.load_file("emoyicons.yml")
   
 end
 
