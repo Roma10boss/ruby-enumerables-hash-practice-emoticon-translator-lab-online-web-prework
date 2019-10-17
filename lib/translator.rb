@@ -1,5 +1,6 @@
 # require modules here
-
+require 'yaml'
+require 'pry'
 def load_library(road)
   # code goes here
 emoticons = YAML.load_fole(road)
