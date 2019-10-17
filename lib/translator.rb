@@ -2,7 +2,7 @@
 
 def load_library
   # code goes here
-  hash = {"get emoticons" =>{}}
+ YAML.load_file(Rails.root.join('lib', 'emoticons.yml'))
 
   
 end
