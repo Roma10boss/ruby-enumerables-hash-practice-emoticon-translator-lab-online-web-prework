@@ -2,6 +2,7 @@
 
 def load_library()
   # code goes here
+  hash = {"get emoticons" =>{}}
 require "yaml"
 emoticons = YAML.load_file("emoyicons.yml")
   
