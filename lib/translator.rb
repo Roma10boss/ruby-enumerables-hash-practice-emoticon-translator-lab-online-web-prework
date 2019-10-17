@@ -6,6 +6,8 @@ emoticons = YAML.load_fole(road)
 emoticons_hash = Hash.new
 
 emoticons_hash["get_emoticons"]= Hash.new
+emoticons_hash["get_meaning"]= Hash.new
+emoticons.each do english_word.emoticon_set
 
 
   
