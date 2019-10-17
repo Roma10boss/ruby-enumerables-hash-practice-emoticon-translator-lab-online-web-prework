@@ -1,8 +1,12 @@
 # require modules here
 
-def load_library
+def load_library(road)
   # code goes here
- YAML.load_file(Rails.root.join('lib', 'emoticons.yml'))
+emoticons = YAML.load_fole(road)
+emoticons_hash = Hash.new
+
+emoticons_hash["get_emoticons"]= Hash.new
+
 
   
 end
