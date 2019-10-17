@@ -1,9 +1,10 @@
 # require modules here
 require 'yaml'
 require 'pry'
+
 def load_library(road)
   # code goes here
-emoticons = YAML.load_fole(road)
+emoticons = YAML.load_file(road)
 emoticons_hash = Hash.new
 
 emoticons_hash["get_emoticons"]= Hash.new
